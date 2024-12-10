@@ -1,0 +1,28 @@
+navbar {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+.blurShadow {
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  border-radius: 100%;
+  box-shadow: 0 -3rem 10rem 3rem #18b2de;
+}
+
+.navRoutes {
+  display: flex;
+  justify-content: space-around;
+  width: 35rem;
+  font-size: 1.12rem;
+}
+
+.active {
+  color: rgba(255, 255, 255);
+}
+
+.inactive {
+  color: rgba(255, 255, 255, 0.5);
+}

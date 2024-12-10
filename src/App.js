@@ -1,10 +1,20 @@
 import './App.css';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Signup from './pages/Signup';
+import Navbar from './components/Navbar';
+
+let Home = false;
 
 function App() {
   return (
-    <div className="App">
-      Podcast Platform App
-    </div>
+    <Router>
+      <div className="App">
+        {!Home && <Navbar />}
+        <Routes>
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
