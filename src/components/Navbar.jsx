@@ -5,9 +5,9 @@ import '../styles/Navbar.css';
 function Navbar(props) {
   const isActiveLink = ({ isActive }) => (isActive ? 'active' : 'inactive');
   return (
-    <navbar>
-      <div class="blurShadow" />
-      <div class="navRoutes">
+    <nav>
+      <div className="blurShadow" />
+      <div className="navRoutes">
         <NavLink to="/signup" className={isActiveLink}>
           Signup
         </NavLink>
@@ -21,7 +21,7 @@ function Navbar(props) {
           Profile
         </NavLink>
       </div>
-    </navbar>
+    </nav>
   );
 }
 

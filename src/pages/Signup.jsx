@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Login from '../components/signup/Login';
+import Register from '../components/signup/Register';
 
-function Signup(props) {
+function Signup() {
+  const [flag, setFlag] = useState(false);
+
   return (
-    <form>
-      <h1>Signup</h1>
-      <input type="text" placeholder="Full Name" />
-    </form>
+    <div>
+      {!flag ? <Register /> : <Login />}
+
+      {!flag ? (
+        <p className="login-text" onClick={() => setFlag(!flag)}>
+          Already Have An Account? login
+        </p>
+      ) : (
+        <p className="signup-text" onClick={() => setFlag(!flag)}>
+          Don't Have An Account? signup
+        </p>
+      )}
+    </div>
   );
 }
 
