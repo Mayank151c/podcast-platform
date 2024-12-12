@@ -1,0 +1,42 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  font-size: 0.8rem;
+  /* apply scroll */
+  position: fixed;
+  overflow-y: scroll;
+}
+
+#sidebar img:last-child {
+  padding-top: 0.2rem;
+  width: 1.25rem;
+}
+
+#sidebar hr {
+  width: 9rem;
+  margin: 1rem 0;
+}
+
+#sidebar::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.side-heading {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
