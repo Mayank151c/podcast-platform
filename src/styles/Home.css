@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+}
+
+.sidebar {
+  width: 10rem;
+  padding: 1rem;
+}
+
+.main-body {
+  margin-left: 14rem;
+}
