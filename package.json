@@ -13,10 +13,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build && npm run live",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write .",
+    "live": "start chrome https://mayank151c.github.io/podcast-platform/",
     "prepare": "husky"
   },
   "eslintConfig": {

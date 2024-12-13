@@ -1,0 +1,55 @@
+#genre-podcaster {
+  display: grid;
+  grid-template-columns: 55vw 20vw;
+  gap: 5rem;
+  margin: 2rem 0;
+}
+
+#genre-podcaster:first-child {
+  text-align: left;
+  > div:first-child {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.5rem;
+  }
+  hr {
+    margin-top: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+#genre-podcaster:last-child {
+  text-align: left;
+  > div:first-child {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.5rem;
+  }
+  hr {
+    margin-top: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+#genre {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap; /* height: 20rem; TODO: horizontal scroll*/
+}
+
+#discover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 2rem 0;
+}
+
+#recent {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 0 0 1rem 0;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
