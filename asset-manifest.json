@@ -1,7 +1,16 @@
 {
   "files": {
-    "main.css": "/podcast-platform/static/css/main.db35f9d5.css",
-    "main.js": "/podcast-platform/static/js/main.6bd768bb.js",
+    "main.css": "/podcast-platform/static/css/main.39226aad.css",
+    "main.js": "/podcast-platform/static/js/main.961f20f0.js",
+    "static/media/genre3.jpg": "/podcast-platform/static/media/genre3.131d02d162d205f86b25.jpg",
+    "static/media/genre4.jpg": "/podcast-platform/static/media/genre4.e75d4f3579c2947c48a6.jpg",
+    "static/media/genre6.jpg": "/podcast-platform/static/media/genre6.f6b527da0d29543bbb3e.jpg",
+    "static/media/author1.png": "/podcast-platform/static/media/author1.d2e408efc14a89179a8c.png",
+    "static/media/genre2.jpg": "/podcast-platform/static/media/genre2.fd77f4d137c174b1be27.jpg",
+    "static/media/genre1.jpg": "/podcast-platform/static/media/genre1.5deec497ad8cf91b8544.jpg",
+    "static/media/author2.png": "/podcast-platform/static/media/author2.f699f17eebfa38abea03.png",
+    "static/media/author4.png": "/podcast-platform/static/media/author4.13ed21969196875df406.png",
+    "static/media/author3.png": "/podcast-platform/static/media/author3.72410963b594ea99b8af.png",
     "static/media/peoples.svg": "/podcast-platform/static/media/peoples.a2573fcd5bfb53d1ea7acdcb25e0414f.svg",
     "index.html": "/podcast-platform/index.html",
     "static/media/profile.svg": "/podcast-platform/static/media/profile.9155dd3ce79f214717246f8fec9ff065.svg",
@@ -14,11 +23,11 @@
     "static/media/trending.svg": "/podcast-platform/static/media/trending.04d258e1be5eb87ad2a7b6e91ceb33ee.svg",
     "static/media/home.svg": "/podcast-platform/static/media/home.2d3670728c3da79eb5889211b3e8d8a2.svg",
     "static/media/arrowdown.svg": "/podcast-platform/static/media/arrowdown.0e65a44856cc0742c29fa07188e6f06f.svg",
-    "main.db35f9d5.css.map": "/podcast-platform/static/css/main.db35f9d5.css.map",
-    "main.6bd768bb.js.map": "/podcast-platform/static/js/main.6bd768bb.js.map"
+    "main.39226aad.css.map": "/podcast-platform/static/css/main.39226aad.css.map",
+    "main.961f20f0.js.map": "/podcast-platform/static/js/main.961f20f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.db35f9d5.css",
-    "static/js/main.6bd768bb.js"
+    "static/css/main.39226aad.css",
+    "static/js/main.961f20f0.js"
   ]
 }
