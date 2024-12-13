@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/podcast-platform/static/css/main.39226aad.css",
-    "main.js": "/podcast-platform/static/js/main.9a5fa070.js",
+    "main.js": "/podcast-platform/static/js/main.961f20f0.js",
     "static/media/genre3.jpg": "/podcast-platform/static/media/genre3.131d02d162d205f86b25.jpg",
     "static/media/genre4.jpg": "/podcast-platform/static/media/genre4.e75d4f3579c2947c48a6.jpg",
     "static/media/genre6.jpg": "/podcast-platform/static/media/genre6.f6b527da0d29543bbb3e.jpg",
@@ -15,7 +15,6 @@
     "index.html": "/podcast-platform/index.html",
     "static/media/profile.svg": "/podcast-platform/static/media/profile.9155dd3ce79f214717246f8fec9ff065.svg",
     "static/media/tv.svg": "/podcast-platform/static/media/tv.4892d46d7c82b8ce6ed0c9a2c22d0386.svg",
-    "static/media/folder.svg": "/podcast-platform/static/media/folder.90de5c4eb2377a813117e58515dd9553.svg",
     "static/media/playlist.svg": "/podcast-platform/static/media/playlist.d2ae4f3805a4b38f43a7f9c83bb65b1f.svg",
     "static/media/more.svg": "/podcast-platform/static/media/more.9212103127247e152b14e55c093418b1.svg",
     "static/media/bookmark.svg": "/podcast-platform/static/media/bookmark.ba9f83621a2d74be34390beb0d5909ca.svg",
@@ -25,10 +24,10 @@
     "static/media/home.svg": "/podcast-platform/static/media/home.2d3670728c3da79eb5889211b3e8d8a2.svg",
     "static/media/arrowdown.svg": "/podcast-platform/static/media/arrowdown.0e65a44856cc0742c29fa07188e6f06f.svg",
     "main.39226aad.css.map": "/podcast-platform/static/css/main.39226aad.css.map",
-    "main.9a5fa070.js.map": "/podcast-platform/static/js/main.9a5fa070.js.map"
+    "main.961f20f0.js.map": "/podcast-platform/static/js/main.961f20f0.js.map"
   },
   "entrypoints": [
     "static/css/main.39226aad.css",
-    "static/js/main.9a5fa070.js"
+    "static/js/main.961f20f0.js"
   ]
 }
