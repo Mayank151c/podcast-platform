@@ -4,9 +4,10 @@
   align-items: flex-start;
   height: 100%;
   font-size: 0.8rem;
+  border-right: 0.1rem solid white;
   /* apply scroll */
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 #sidebar img:last-child {
@@ -28,7 +29,7 @@
 }
 
 #sidebar::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #000;
 }
 
 #sidebar::-webkit-scrollbar-thumb:hover {

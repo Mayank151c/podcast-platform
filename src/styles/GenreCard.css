@@ -1,0 +1,28 @@
+#genre-card {
+  text-align: left;
+  padding: 1rem;
+  border-radius: 5%;
+  border: 0.05rem solid rgba(255, 255, 255, 0.5);
+}
+
+#genre-card:hover {
+  box-shadow: inset 1px 1px 1rem 0.01rem skyblue;
+}
+
+#genre-card img {
+  width: 12rem;
+  height: 13rem;
+}
+
+#genre-card div {
+  padding-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#genre-card div:last-child {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
+}
