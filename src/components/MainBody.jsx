@@ -22,27 +22,21 @@ function MainBody(props) {
           <GenreCard key={data.id} data={data} />
         ))}
       </div>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <div id="genre-podcaster">
-          <div>
-            <div>
-              MOST POPULAR
-              <hr />
-            </div>
-            {GenreData.map((data) => (
-              <GenreListCard key={data.id} data={data} />
-            ))}
-          </div>
+      <div id="genre-podcaster">
+        <div>
+          MOST POPULAR
+          <hr />
+          {GenreData.map((data) => (
+            <GenreListCard key={data.id} data={data} />
+          ))}
+        </div>
 
-          <div>
-            <div>
-              TOP PODCASTER
-              <hr />
-            </div>
-            {PodcasterData.map((data) => (
-              <PodcasterCard key={data.id} data={data} />
-            ))}
-          </div>
+        <div>
+          TOP PODCASTER
+          <hr />
+          {PodcasterData.map((data) => (
+            <PodcasterCard key={data.id} data={data} />
+          ))}
         </div>
       </div>
     </div>

@@ -1,15 +1,29 @@
 .home {
-  display: flex;
-  justify-content: start;
+  display: grid;
+  grid-template-columns: 12rem 1fr;
   margin: 0;
 }
 
 .sidebar {
   width: 10rem;
   padding: 1rem;
+  overflow-y: scroll;
+  position: fixed;
+  height: 100vh;
 }
 
 .main-body {
-  margin-left: 12rem;
+  grid-column: 2;
   padding-left: 2rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .main-body {
+    grid-column-start: 1;
+    overflow: hidden;
+    padding-left: 1rem;
+    display: block;
+    width: 100vw;
+  }
 }

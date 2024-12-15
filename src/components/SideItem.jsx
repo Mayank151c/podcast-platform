@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/SideItem.css';
 
-function SideItem(props) {
+function SideItem({ Icon, ...props }) {
   return (
     <div id="side-item">
-      <img src={props.icon} alt={`${props.text} icon`} />
+      <Icon id="side-icon" />
       <span>{props.text}</span>
       {props.children}
     </div>
