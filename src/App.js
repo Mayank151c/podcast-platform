@@ -4,6 +4,7 @@ import { Navigate, Routes, Route } from 'react-router-dom';
 import Signup from './pages/Signup';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
+import Podcasts from './components/podcasts/Podcasts';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/podcast" element={<Signup />} />
+        <Route path="/podcast" element={<Podcasts />} />
         <Route path="/start" element={<Signup />} />
         <Route path="/profile" element={<Signup />} />
         <Route path="*" element={<Navigate to="/" />} />
